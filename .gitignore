@@ -1,0 +1,137 @@
+# ======================================
+# ARCHIVOS GENERALES
+# ======================================
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.dll
+*.dylib
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ======================================
+# ENTORNOS VIRTUALES
+# ======================================
+# Virtualenv / venv
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# ======================================
+# CONFIGURACIONES Y ARCHIVOS LOCALES
+# ======================================
+*.env
+*.env.*
+.env.local
+*.ini
+*.cfg
+*.toml
+*.sqlite3
+*.db
+*.db-journal
+
+# ======================================
+# ARCHIVOS DE CACHE Y COMPILADOS
+# ======================================
+.cache/
+pytest_cache/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+*.cover
+*.coverage.*
+htmlcov/
+
+# ======================================
+# CONFIGURACIONES DE IDEs Y EDITORES
+# ======================================
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# ======================================
+# JUPYTER NOTEBOOKS
+# ======================================
+.ipynb_checkpoints
+
+# ======================================
+# ARCHIVOS DE DISTRIBUCIÓN Y COMPILACIÓN
+# ======================================
+build/
+dist/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+*.egg
+*.egg-info/
+MANIFEST
+
+# ======================================
+# DOCUMENTACIÓN
+# ======================================
+docs/_build/
+doc/_build/
+
+# ======================================
+# CONFIGURACIONES ESPECÍFICAS DE FRAMEWORKS
+# ======================================
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+
+# Flask
+instance/
+.webassets-cache
+
+# FastAPI / Starlette
+*.db
+*.sqlite3
+
+# ======================================
+# CONFIGURACIONES DE DOCKER
+# ======================================
+docker-compose.override.yml
+*.dockerfile
+*.Dockerfile
+*.tar
+.docker/
+
+# ======================================
+# CONFIGURACIONES DE JUPYTERLAB / COLAB
+# ======================================
+.ipynb_checkpoints/
+.colab/
+*.ipynb
+
+# ======================================
+# CONFIGURACIONES DE SISTEMA
+# ======================================
+.DS_Store
+Thumbs.db
+desktop.ini
