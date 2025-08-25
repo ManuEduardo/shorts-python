@@ -249,7 +249,10 @@ class VideoAssetsGenerator:
                 output_dir=str(self.config.subtitles_dir),
                 model_name="small",
                 language="es",
-                verbose=self.config.verbose
+                verbose=self.config.verbose,
+                max_words_per_subtitle=5,
+                max_chars_per_subtitle=20,
+                fragment_subtitles=True
             )
             
             # Transcribir solo el archivo específico

@@ -1,4 +1,4 @@
-Imagina dos recipientes, uno con agua hirviendo, otro con agua fría. ¿Cuál se congelará primero? La respuesta podría sorprenderte.
-El efecto Mpemba es más que un simple truco.  Implica una compleja interacción entre la temperatura, la convección, la evaporación y la formación de cristales de hielo.  Enfriar el agua caliente más rápidamente puede reducir la formación de cristales de hielo grandes, lo que acelera el proceso general.
-La disipación de calor es fundamental.  El agua caliente inicia la disipación de energía con mayor eficiencia, acercándose al punto de congelación más rápido que el agua fría. Esto se ve afectado por la presencia de impurezas y gases disueltos.   Las características del contenedor, también, juega un papel importante.
-Adéntrate en el mundo de la física con esta extraordinaria paradoja.  ¡Deja un comentario con tu experiencia!
+Un pequeño rayo de luz revela secretos ocultos.  Descubre el enigma del disco óptico.
+La base del funcionamiento reside en la reflexión de la luz.  Las variaciones microscópicas en la superficie del disco, las fosas y las elevaciones, alteran la reflexión del láser. Un sensor, extremadamente sensible a esos cambios, los traduce en datos binarios.
+La longitud de onda del láser es crucial;  una precisión nanométrica en la fabricación del disco permite que el láser "lea" la información correctamente.   Una interferencia, incluso minúscula, puede corromper la señal, haciendo irrecuperable la información. El proceso es un delicado juego de luz y sombras, un ballet microscópico que revela el mundo digital.
+Adéntrate en el mundo subatómico de la información.  Descubre la ciencia que hace posible la magia de la tecnología digital y sus secretos ocultos.
