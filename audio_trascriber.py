@@ -449,9 +449,9 @@ class AudioTranscriber:
         for audio_file in audio_files:
             try:
                 self.logger.info(f"\n📝 Procesando {stats['processed'] + 1}/{len(audio_files)}: {audio_file.name}")
-                
-                output_path = self.transcribe_single_file(audio_file)
-                
+
+                output_path = self.transcribe_single_file(audio_file, f"subtitulo_{audio_file.stem}.srt")
+
                 if output_path:
                     stats["processed"] += 1
                     stats["output_files"].append(str(output_path))
