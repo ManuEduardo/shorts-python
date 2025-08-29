@@ -16,27 +16,29 @@ class GuionGeneratorConfigurable:
         return f"""
 Crea EXACTAMENTE {num_guiones} guiones completamente diferentes para un short de "{data['title']}" (categoría: {data['categoria']}).
 Cada guión debe tener un enfoque único y ser totalmente diferente de los otros.
+Las imágenes deben de ser de cosas que se mencionan en el guión cada aproximadamente 10 a 15 palabras, las cosas más importantes a las que se esté haciendo referencia.
+Las imágenes principales deben ser de elementos clave del guión, como personajes, objetos específicos, lugares o escenarios importantes (ejem: roberto bolaños, paris 1944, tratado de versalles, hipocampo, ps4 slim azul).
+Las imágenes complementarias pueden incluir conceptos más simples (ejem: agua, vida, jugos, persona, mariposa, rana, etc.)
 
 FORMATO ESTRICTO PARA CADA GUIÓN:
 
 ## GUIÓN [NÚMERO]: [Título único]
 
 **Alternativas de Título:**
-1. [Título A - máximo 6 palabras]
-2. [Título B - máximo 6 palabras] 
-3. [Título C - máximo 6 palabras]
+1. [Título A - máximo 4 palabras]
+2. [Título B - máximo 4 palabras]
 
 **Desarrollo ({data['duration_target']} segundos):**
 
-[Hook impactante único]
+[Hook impactante único] (Preferentemente una frase que en las primeras 2-3 palabras capte la atención)
 [Contenido principal diferente]
 [Más detalles únicos]
-[CTA diferente]
+[CTA diferente que invite a comentar]
 
-**Imágenes Principales:**
+**Imágenes Principales (de google):**
 ["específica1", "específica2", "específica3", "específica4", "específica5"]
 
-**Imágenes Complementarias:**
+**Imágenes Complementarias (de galerías):**
 ["concepto1", "concepto2", "concepto3", "concepto4", "concepto5"]
 
 **Tags (10):**
@@ -52,7 +54,8 @@ INSTRUCCIONES CRÍTICAS:
 - Video misterioso, profundo y atrapante
 - Títulos que enganchen desde las primeras 2-3 palabras
 - Se deben lanzar datos cada 3 a 5 segundos
-- No agregar en el guion datos del tiempo, solo separa la frase de enganche, desarrollos y cierre
+- No agregar en el guion datos del tiempo hablado o duración, solo separa la frase de enganche, desarrollos y cierre
+- Quiero que el guión te invite de alguna forma a comentar / debatir, además de la invitación directa al final de el guión
 Indicaciones extra: {data['inidicaciones_extra']}
         """
 
@@ -72,24 +75,26 @@ Indicaciones extra: {data['inidicaciones_extra']}
 Crea UN SOLO guión completo (Guión #{numero_guion} de {total_guiones}) para el video "{data['title']}" (categoría: {data['categoria']}).
 
 ENFOQUE ESPECÍFICO: {enfoque}
+Las imágenes deben de ser de cosas que se mencionan en el guión cada aproximadamente 10 a 15 palabras, las cosas más importantes a las que se esté haciendo referencia.
+Las imágenes principales deben ser de elementos clave del guión, como personajes, objetos específicos, lugares o escenarios importantes (ejem: roberto bolaños, paris 1944, tratado de versalles, hipocampo, ps4 slim azul).
+Las imágenes complementarias pueden incluir conceptos más simples (ejem: agua, vida, jugos, persona, mariposa, rana, etc.)
 
 FORMATO REQUERIDO:
 ## GUIÓN #{numero_guion}: [Título Creativo]
 
 **Alternativas de Título:**
-1. [Título 1 - máximo 6 palabras]
-2. [Título 2 - máximo 6 palabras] 
-3. [Título 3 - máximo 6 palabras]
+1. [Título 1 - máximo 4 palabras]
+2. [Título 2 - máximo 4 palabras]
 
 **Desarrollo Completo ({data['duration_target']} segundos):**
 
-[Frase impactante que haga que no puedan dejar de ver]
+[Frase impactante que haga que no puedan dejar de ver] (Preferentemente una frase que en las primeras 2-3 palabras capte la atención)
 
 [Explicación clara, entretenida y profunda del tema]
 
 [Más detalles específicos y fascinantes]
 
-[CTA atractivo que invite a seguir viendo más]
+[CTA atractivo que invite a seguir viendo más y comentar]
 
 **Lista 1 - Imágenes Principales:**
 ["imagen específica 1", "lugar/persona 2", "objeto/concepto 3", "imagen específica 4", "elemento visual 5"]
@@ -104,9 +109,10 @@ INSTRUCCIONES:
 - Video misterioso, profundo y atrapante
 - Títulos que enganchen desde las primeras 2-3 palabras
 - Se deben lanzar datos cada 3 a 5 segundos
-- No agregar en el guion datos del tiempo, solo separa la frase de enganche, desarrollos y cierre
+- No agregar en el guion datos del tiempo hablado o duración, solo separa la frase de enganche, desarrollos y cierre
 - NO repitas conceptos si sabes que hay otros guiones
 - Debe ser completamente diferente a otros enfoques
+- Quiero que el guión te invite de alguna forma a comentar / debatir, además de la invitación directa al final de el guión
 Indicaciones extra: {data['inidicaciones_extra']}
         """
 
