@@ -1,13 +1,36 @@
 {
-    "title": "La Isla de Bermeja que desapareció del mapa",
-    "description": "Cuenta el caso de la Isla de Bermeja en México, que figuró en mapas por siglos y luego “desapareció” misteriosamente.  ",
+    "title": "El mendigo que resultó ser millonario",
+    "description": "Relato de un hombre que vivió en la calle sin saber que heredó una fortuna, pero nunca la reclamó.  ",
     "categoria": "Historias",
     "num_guiones": 3,
-    "duration_target": 55,
+    "duration_target": 90,
     "vertical_format": true,
-    "inidicaciones_extra": "Quiero que uses datos reales y teoria fisica, biologica, etc y ejemplos impactantes y tono misterioso. ",
+    "inidicaciones_extra": "Quiero que uses datos reales, anecdotas, y ejemplos impactantes.",
     "inidicaciones_extra_": "Quiero que uses datos reales, ejemplos impactantes y tono misterioso.",
+    "keywords": [
+    "homeless", 
+    "fortuna", 
+    "carta antigua", 
+    "dinero y herencia", 
+    "ciudad costera España", 
+    "banco de madera calle", 
+    "oportunidad de vida", 
+    "policía buscando persona", 
+    "historia sorprendente", 
+    "destino irónico"
+]
+,
+    "google_keywords": [
+    "Calpe España 2015", 
+    "José López mendigo real", 
+    "notario notificando", 
+    "pariente lejano Valencia herencia", 
+    "banco frente al mar Calpe", 
+    "policía localizando", 
+    "documentos oficiales herencia España", 
+    "calle donde vivía José López", 
+    "noticia caso herencia mendigo España", 
+    "sobre carta herencia"
+]
 
-    "keywords": ["Memoria", "Recuerdo", "Confusión", "Debate", "Grupo", "mandela", "conspiración"],
-    "google_keywords": ["Mapa antiguo mostrando Bermeja", "efecto mandela", "Imagen de personas discutiendo", "Cerebro humano", "Libros de historia antiguos", "Escáner cerebral"]
 }

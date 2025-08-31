@@ -15,8 +15,10 @@ class GuionGeneratorConfigurable:
         """Genera prompt para obtener múltiples guiones en una consulta."""
         return f"""
 Crea EXACTAMENTE {num_guiones} guiones completamente diferentes para un short de "{data['title']}" (categoría: {data['categoria']}).
+La descripción del guion es: {data['description']}
 Cada guión debe tener un enfoque único y ser totalmente diferente de los otros.
-Las imágenes deben de ser de cosas que se mencionan en el guión cada aproximadamente 10 a 15 palabras, las cosas más importantes a las que se esté haciendo referencia.
+La duración aproximada del guión debe ser de {data['duration_target']} segundos.
+Las imágenes deben de ser de cosas que se mencionan en el guión cada aproximadamente 5 a 10 palabras, las cosas más importantes a las que se esté haciendo referencia.
 Las imágenes principales deben ser de elementos clave del guión, como personajes, objetos específicos, lugares o escenarios importantes (ejem: roberto bolaños, paris 1944, tratado de versalles, hipocampo, ps4 slim azul).
 Las imágenes complementarias pueden incluir conceptos más simples (ejem: agua, vida, jugos, persona, mariposa, rana, etc.)
 
@@ -50,11 +52,12 @@ SEPARADOR ENTRE GUIONES: ===NUEVO_GUION===
 
 INSTRUCCIONES CRÍTICAS:
 - Cada guión debe abordar el tema desde un ángulo COMPLETAMENTE diferente
+- Lanza datos como fechas, contexto, etc.
 - Los {num_guiones} guiones deben ser únicos y no repetir conceptos
 - Video misterioso, profundo y atrapante
 - Títulos que enganchen desde las primeras 2-3 palabras
 - Se deben lanzar datos cada 3 a 5 segundos
-- No agregar en el guion datos del tiempo hablado o duración, solo separa la frase de enganche, desarrollos y cierre
+- No agregar en el guion marcas de tiempo (duración de cada parte), solo separa la frase de enganche, desarrollos y cierre
 - Quiero que el guión te invite de alguna forma a comentar / debatir, además de la invitación directa al final de el guión
 Indicaciones extra: {data['inidicaciones_extra']}
         """
@@ -75,7 +78,9 @@ Indicaciones extra: {data['inidicaciones_extra']}
 Crea UN SOLO guión completo (Guión #{numero_guion} de {total_guiones}) para el video "{data['title']}" (categoría: {data['categoria']}).
 
 ENFOQUE ESPECÍFICO: {enfoque}
-Las imágenes deben de ser de cosas que se mencionan en el guión cada aproximadamente 10 a 15 palabras, las cosas más importantes a las que se esté haciendo referencia.
+La descripción del guion es: {data['description']}
+La duración aproximada del guión debe ser de {data['duration_target']} segundos.
+Las imágenes deben de ser de cosas que se mencionan en el guión cada aproximadamente 5 a 10 palabras, las cosas más importantes a las que se esté haciendo referencia.
 Las imágenes principales deben ser de elementos clave del guión, como personajes, objetos específicos, lugares o escenarios importantes (ejem: roberto bolaños, paris 1944, tratado de versalles, hipocampo, ps4 slim azul).
 Las imágenes complementarias pueden incluir conceptos más simples (ejem: agua, vida, jugos, persona, mariposa, rana, etc.)
 
@@ -107,9 +112,10 @@ FORMATO REQUERIDO:
 
 INSTRUCCIONES:
 - Video misterioso, profundo y atrapante
+- Lanza datos como fechas, contexto, etc.
 - Títulos que enganchen desde las primeras 2-3 palabras
 - Se deben lanzar datos cada 3 a 5 segundos
-- No agregar en el guion datos del tiempo hablado o duración, solo separa la frase de enganche, desarrollos y cierre
+- No agregar en el guion marcas de tiempo (duración de cada parte), solo separa la frase de enganche, desarrollos y cierre
 - NO repitas conceptos si sabes que hay otros guiones
 - Debe ser completamente diferente a otros enfoques
 - Quiero que el guión te invite de alguna forma a comentar / debatir, además de la invitación directa al final de el guión
