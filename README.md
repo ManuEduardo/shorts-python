@@ -51,6 +51,9 @@ UNSPLASH_KEY=tu_clave_unsplash
 PEXELS_KEY=tu_clave_pexels  
 PIXABAY_KEY=tu_clave_pixabay
 SERPAPI_KEY=tu_clave_serpapi
+
+OPENAI_API_KEY=
+GEMINI_API_KEY=
 ```
 
 ### 2. Configuración de Video (video.json)
@@ -83,6 +86,8 @@ El 17 de noviembre de 1952, algo extraordinario sucedió...
 ## 🛠️ Instalación y Uso
 
 ### 1. **Instalar Dependencias**
+(se necesita tener instalado un copilador de c++, se puede usar las que brinda microsoft en https://visualstudio.microsoft.com/es/downloads/?q=build+tools)
+(se necesita instalar ffmpeg y que esté agregado al path)
 ```bash
 pip install -r requirements.txt
 
@@ -99,7 +104,9 @@ pip install -r requirements.txt
 - Crea cuenta en [SerpAPI](https://serpapi.com/) (para Google Images)
 
 ### 3. **Ejecutar Sistema**
+el scripts_generator solo es para generar un guión automaticamente, pero se puede saltar esta parte, poner tu guión en guion.txt y ejecutar el main junto al json completo
 ```bash
+python scripts_generator.py
 python main.py
 ```
 
@@ -145,7 +152,7 @@ python main.py
 
 ---
 
-## ⚙️ Configuraciones Avanzadas
+## ⚙️ Configuraciones Avanzadas (main.py)
 
 ### **Personalizar TTS:**
 ```python

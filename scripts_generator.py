@@ -43,9 +43,6 @@ FORMATO ESTRICTO PARA CADA GUIÓN:
 **Imágenes Complementarias (de galerías):**
 ["concepto1", "concepto2", "concepto3", "concepto4", "concepto5"]
 
-**Tags (10):**
-tag1, tag2, tag3, tag4, tag5, tag6, tag7, tag8, tag9, tag10
-
 ---
 
 SEPARADOR ENTRE GUIONES: ===NUEVO_GUION===
@@ -106,9 +103,6 @@ FORMATO REQUERIDO:
 
 **Lista 2 - Imágenes Complementarias:**
 ["concepto visual 1", "ambiente 2", "contexto 3", "elemento 4", "atmósfera 5"]
-
-**Tags (10):**
-[tag1, tag2, tag3, tag4, tag5, tag6, tag7, tag8, tag9, tag10]
 
 INSTRUCCIONES:
 - Video misterioso, profundo y atrapante

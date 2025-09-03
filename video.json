@@ -1,36 +1,35 @@
 {
-    "title": "El mendigo que resultó ser millonario",
-    "description": "Relato de un hombre que vivió en la calle sin saber que heredó una fortuna, pero nunca la reclamó.  ",
-    "categoria": "Historias",
+    "title": "Colapso del campo magnetico en marte y que pasaría si se da en la tierra",
+    "description": "Quiero que hables sobre el colapso del campo magnético en Marte y las posibles consecuencias si esto ocurriera en la Tierra.",
+    "categoria": "Curiosidades de ciencias e ingeniería",
     "num_guiones": 3,
     "duration_target": 90,
     "vertical_format": true,
     "inidicaciones_extra": "Quiero que uses datos reales, anecdotas, y ejemplos impactantes.",
     "inidicaciones_extra_": "Quiero que uses datos reales, ejemplos impactantes y tono misterioso.",
     "keywords": [
-    "homeless", 
-    "fortuna", 
-    "carta antigua", 
-    "dinero y herencia", 
-    "ciudad costera España", 
-    "banco de madera calle", 
-    "oportunidad de vida", 
-    "policía buscando persona", 
-    "historia sorprendente", 
-    "destino irónico"
-]
-,
+        "Planeta Tierra",
+        "Rayo",
+        "Computadora",
+        "Ciudad moderna",
+        "Agua potable",
+        "marte",
+        "Campo magnetico",
+        "radiación solar",
+        "oceano",
+        "capa de ozono"
+    ],
     "google_keywords": [
-    "Calpe España 2015", 
-    "José López mendigo real", 
-    "notario notificando", 
-    "pariente lejano Valencia herencia", 
-    "banco frente al mar Calpe", 
-    "policía localizando", 
-    "documentos oficiales herencia España", 
-    "calle donde vivía José López", 
-    "noticia caso herencia mendigo España", 
-    "sobre carta herencia"
-]
-
+        "Campo magnético Tierra",
+        "marte superficie",
+        "Tormenta solar",
+        "Satélite destruido",
+        "Central eléctrica",
+        "Supervivencia humana",
+        "vida en la tierra",
+        "biosfera",
+        "migración animales",
+        "nucleo de la tierra",
+        "nucleo de marte"
+    ]
 }

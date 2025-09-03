@@ -150,8 +150,8 @@ class VideoAssetsGenerator:
                 project_name=str(self.config.images_dir),
                 keywords=keywords,
                 google_keywords=google_keywords,
-                images_per_keyword=2,
-                images_per_keyword_google=8,
+                images_per_keyword=3,
+                images_per_keyword_google=7,
                 unsplash_key=self.config.unsplash_key,
                 pexels_key=self.config.pexels_key,
                 pixabay_key=self.config.pixabay_key,
@@ -185,7 +185,8 @@ class VideoAssetsGenerator:
             tts_config = TTSConfig(
                 remove_silence=True,
                 silence_threshold=-40.0, # Umbral de silencio 
-                min_silence_duration=0.4,
+                min_silence_duration=0.3,
+                paragraph_pause=0.1,
                 keep_temp_files=False,
                 verbose=self.config.verbose,
                 root_dir=tts_temp_dir  # Usar directorio temporal específico
